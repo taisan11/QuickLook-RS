@@ -5,8 +5,8 @@ use tao::{
 };
 use tray_icon::{TrayIconBuilder, menu::Menu, menu::MenuEvent, menu::MenuItem};
 use wry::WebViewBuilder;
-mod whatSelect;
-use whatSelect::get_selected_files;
+mod what_select;
+use what_select::get_selected_files;
 
 enum UserEvent {
     // TrayIconEvent(tray_icon::TrayIconEvent),
